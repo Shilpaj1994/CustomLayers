@@ -1,6 +1,45 @@
 # PyTorch: Autograde and Internal Graphs
 
+---
 
+## Project Structure
+
+```
+.
+├── custom_layers.py         # Custom layers for CNN and Transformer
+├── custom_transformer.py    # Custom Transformer Model
+├── custom_cnn.py            # Custom CNN Model
+├── README.md                # README file
+├── ModelsCustomLayers.ipynb # Notebook for training CNN and Transformer
+```
+
+## CNN Training Logs
+```bash
+Epoch 1/1
+------------------------------------------------------------
+Train Epoch: 0 [0/60000 (0%)]	Loss: 2.325208
+Train Epoch: 0 [6400/60000 (11%)]	Loss: 2.274367
+Train Epoch: 0 [12800/60000 (21%)]	Loss: 1.907985
+Train Epoch: 0 [19200/60000 (32%)]	Loss: 1.327141
+Train Epoch: 0 [25600/60000 (43%)]	Loss: 1.174399
+Train Epoch: 0 [32000/60000 (53%)]	Loss: 0.865014
+Train Epoch: 0 [38400/60000 (64%)]	Loss: 0.571349
+Train Epoch: 0 [44800/60000 (75%)]	Loss: 0.953678
+Train Epoch: 0 [51200/60000 (85%)]	Loss: 0.636638
+Train Epoch: 0 [57600/60000 (96%)]	Loss: 0.530873
+```
+
+## Transformer Training Logs
+
+```bash
+Training on cpu
+Batch 0, Loss: 31946.1055
+Batch 10, Loss: 28276.4121
+
+Epoch completed. Average loss: 29259.5110
+```
+
+---
 
 ## Visualizing Computational Graphs
 
